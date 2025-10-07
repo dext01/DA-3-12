@@ -109,8 +109,8 @@ print(mae_values)
 ```
 # Построение графика MAE
 plot_mae(mae_values)
-![Мой результат для датасета](https://raw.githubusercontent.com/dext01/DA-3-12/main/images/my_image.png)
 ```
+![Мой результат для датасета](https://raw.githubusercontent.com/dext01/DA-3-12/main/images/MAE_image.png)
 
 ### Шаг 8: Использование линейной регрессии
 ```
