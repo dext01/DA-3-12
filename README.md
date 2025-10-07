@@ -91,3 +91,12 @@ windows_X, windows_y = create_windows(X, y, window_size)
 
 # Проверка размеров окон
 print(f"Количество окон: {len(windows_X)}")
+
+### Шаг 6: Оценка модели с использованием простой модели (среднее)Используйте функцию **`calculate_mae`**, чтобы оценить **MAE** для каждого окна:
+
+```python
+# Оценка MAE для модели на основе среднего
+mae_values = calculate_mae(windows_X, windows_y)
+
+# Выводим MAE
+print(mae_values)
