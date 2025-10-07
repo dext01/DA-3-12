@@ -109,6 +109,8 @@ print(mae_values)
 ```
 # Построение графика MAE
 plot_mae(mae_values)
+<img width="1042" height="638" alt="image" src="https://github.com/user-attachments/assets/b7579078-78f8-4eb6-bcd6-9fc168278e00" />
+
 ```
 
 ### Шаг 8: Использование линейной регрессии
