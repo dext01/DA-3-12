@@ -102,3 +102,14 @@ mae_values = calculate_mae(windows_X, windows_y)
 
 # Выводим MAE
 print(mae_values)
+
+### Шаг 7: Построение графика MAE
+# Построение графика MAE
+plot_mae(mae_values)
+
+### Шаг 8: Использование линейной регрессии
+# Оценка MAE с помощью линейной регрессии
+mae_linear = linear_regression_model(windows_X, windows_y)
+
+# Выводим MAE для линейной регрессии
+print(f"MAE для линейной регрессии: {mae_linear}")
